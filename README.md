@@ -11,7 +11,7 @@ A cloud-config file for local Laravel development. Designed to be used with [Ubu
 
 ## Usage
 
-Launch a Multipass VM using the cloud-config file:
+Download the [cloud-config.yml](cloud-config.yml) file. Then, launch a Multipass VM using the cloud-config file:
 
 ```
 multipass launch 18.04 --name laravel --cloud-init cloud-config.yml
