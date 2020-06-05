@@ -21,7 +21,7 @@ multipass launch 18.04 --name laravel --cloud-init cloud-config.yml
 Next, mount your Laravel project to the VM:
 
 ```
-multipass mount laravel /path/to/laravel:/sites/laravel.test/files
+multipass mount /path/to/laravel laravel:/sites/laravel.test/files
 ```
 
 Finally, use `multipass info laravel` to find the VM IP and add it to your `/etc/hosts` file to point `laravel.test` to your VM.
